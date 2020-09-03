@@ -28,27 +28,3 @@
 .friends-screen__chennel-header i {
   color: rgba(0, 0, 0, 0.3);
 }
-@keyframes splashani {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-#splash-icon {
-  background-color: var(--main-color);
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0px;
-  z-index: 1;
-  font-size: 120px;
-  animation: splashani 0.2s linear forwards;
-  animation-delay: 1s;
-}
