@@ -1,0 +1,24 @@
+.alt-headerBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alt-headerBar > * {
+  padding: 0px 15px;
+  width: 33%;
+  box-sizing: border-box;
+}
+
+.alt-headerBar span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.alt-header__icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__icons > i:not(:last-child) {
+  margin-right: 15px;
+}

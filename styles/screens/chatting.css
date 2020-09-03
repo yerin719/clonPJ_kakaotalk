@@ -1,0 +1,133 @@
+#chatting-screen {
+  background-color: #abc1d1;
+}
+
+.chatting-screen-color {
+  background-color: #abc1d1;
+}
+
+.timeStamp {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-bottom: 10px;
+}
+.timeStamp span {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.friends-chat {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: center;
+}
+.friends-chat img {
+  width: 50px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+.gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat-name {
+  font-size: 15px;
+}
+
+.chat-time {
+  font-size: 8px;
+}
+
+.friend-chat-content-box {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  align-items: flex-end;
+}
+.chat-content {
+  color: black;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 30%;
+
+  margin: 5px;
+}
+.chat-content-friend {
+  background-color: white;
+  border-top-left-radius: 0px;
+}
+
+.chat-content-user {
+  background-color: var(--main-color);
+  border-top-right-radius: 0px;
+}
+
+.user-chat {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.messege-bar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 15px;
+  position: fixed;
+  bottom: 0px;
+  transition: all 0.34s ease-in-out;
+}
+
+.messege-bar__messegeBox {
+  background-color: #f8f8f8;
+  width: 85%;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.messege-bar__messegeBox input {
+  width: auto;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.messege-bar i:not(:last-child) {
+  margin-right: 10px;
+}
+
+.send-btn {
+  color: black;
+  background-color: var(--main-color);
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.messege-bar__messegeBox-icon {
+  display: flex;
+  align-items: center;
+}
+
+.messege-bar:focus-within .messege-bar__messegeBox {
+  width: 100vw;
+  transform: translateY(-60px) translateX(-30px);
+}
+.messege-bar:focus-within {
+  transform: translateY(60px);
+}

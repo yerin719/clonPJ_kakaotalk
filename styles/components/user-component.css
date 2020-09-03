@@ -1,0 +1,74 @@
+.user-component {
+  margin-bottom: 20px;
+}
+
+.user-component,
+.user-component-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component-column-col {
+  flex-direction: column;
+}
+
+.user-component-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+
+.user-component-imgxl {
+  width: 70px;
+  height: 70px;
+}
+
+.user-component-imgs {
+  width: 50px;
+  height: 50px;
+}
+
+.user-component-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px var(--componentBox-space);
+}
+
+.user-component-title {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.user-component-title-s {
+  font-size: 17px;
+  padding: 5px 0px;
+}
+
+.user-component-titlex-xl {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+
+.user-component-subtitle {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component-noti {
+  color: rgba(0, 0, 0, 0.5);
+}
+.notiTime {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.user-component-column i {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}

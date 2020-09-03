@@ -1,0 +1,41 @@
+.openchat-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.openchat__column {
+  display: flex;
+  flex-direction: column;
+}
+.openchat__column > * {
+  padding: 3px 0px;
+}
+
+.openchat__title {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.openchat__tag {
+  font-size: 14px;
+}
+.openchat__info {
+  font-size: 12px;
+}
+.openchat__info img {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.openchat__status {
+  color: fuchsia;
+}
+
+.openchat__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+}

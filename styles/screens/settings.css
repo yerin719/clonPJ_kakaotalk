@@ -1,0 +1,30 @@
+.setting__lists {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 0px;
+}
+.setting__list {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.setting__list i {
+  margin-right: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.setting__list span {
+  font-weight: 600;
+}
+
+.setting__list:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.setting__lists:not(:first-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

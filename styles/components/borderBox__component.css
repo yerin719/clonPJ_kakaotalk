@@ -1,0 +1,14 @@
+.screen-Subheader {
+  color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 11px;
+}
+.subheader {
+  padding-top: 15px;
+}
+
+.sub__bold {
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}

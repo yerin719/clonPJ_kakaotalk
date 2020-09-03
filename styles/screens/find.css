@@ -1,0 +1,18 @@
+.screen-Subheader p {
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.finderxcreen__openchat {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.finderxcreen__openchat__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0px;
+  align-items: center;
+}

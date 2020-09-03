@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KaKaoClone</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>07:19</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcomeHeader">
+      <h1>Welcome to KakaoClone</h1>
+      <p>
+        If you have Kakao Account,<br />log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="GET" class="logInForm">
+      <input
+        name="ID"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="PW" type="password" required placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/0b25d3ca20.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

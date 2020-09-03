@@ -1,0 +1,39 @@
+.headerBar {
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 20px var(--componentBox-space);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.headerBar__menuList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerBar__menuIcon {
+  margin-left: var(--componentItem-space);
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: spin 1s linear infinite;
+}

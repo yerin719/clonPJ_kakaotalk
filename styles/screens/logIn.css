@@ -1,0 +1,58 @@
+/*-----------------------------welcome CSS------------------------------------*/
+
+.welcomeHeader {
+  margin: 20% 0%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.welcomeHeader h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.welcomeHeader p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}
+
+/*-----------------------------log In CSS------------------------------------*/
+
+.logInForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.logInForm input {
+  padding: 16px 0px;
+}
+
+.logInForm input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: 0.3s border ease-in-out;
+}
+
+.logInForm input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+
+.logInForm input:focus {
+  border-color: var(--main-color);
+}
+
+.logInForm input[type="submit"] {
+  margin: 30px 0px 15px 0px;
+  background-color: var(--main-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logInForm a {
+  text-align: center;
+  font-size: 11px;
+}

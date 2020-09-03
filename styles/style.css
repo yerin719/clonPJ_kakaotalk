@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "var.css";
+/* Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/header-bar.css";
+@import "components/alt-header-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/openchat-component.css";
+@import "components/borderBox__component.css";
+@import "components/icon_span__component.css";
+
+/* screens*/
+@import "screens/logIn.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/settings.css";
+@import "screens/chatting.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.fixBar {
+  width: 100%;
+  position: fixed;
+}
